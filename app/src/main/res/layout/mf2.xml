@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView101"
+        android:layout_width="315dp"
+        android:layout_height="448dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/rectangle7" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="292dp"
+        android:layout_height="141dp"
+        android:fontFamily="@font/changa"
+        android:text="A waterfall unlike any other It is perfectly fringed with trees and grasses with its foliage-taped wall that looks like a Green Water Curtain at about 140 meters high. Then, the stream runs through a shallow rocky natural pool below until it runs into the Alamada River."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView101"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintHorizontal_bias="0.400"
+        app:layout_constraintStart_toStartOf="@+id/imageView101"
+        app:layout_constraintTop_toTopOf="@+id/imageView101"
+        app:layout_constraintVertical_bias="0.980" />
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="278dp"
+        android:layout_height="196dp"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView101"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/imageView101"
+        app:layout_constraintTop_toTopOf="@+id/imageView101"
+        app:layout_constraintVertical_bias="0.071">
+
+        <ImageView
+            android:id="@+id/imageView114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/aaf1" />
+
+        <ImageView
+            android:id="@+id/imageView125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/aaf2" />
+
+        <ImageView
+            android:id="@+id/imageView129"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/aaf3" />
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="243dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/changa"
+        android:text="Asik Asik Falls"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView101"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintHorizontal_bias="0.470"
+        app:layout_constraintStart_toStartOf="@+id/imageView101"
+        app:layout_constraintTop_toBottomOf="@+id/viewFlipper"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView149"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/changa"
+        android:text="7°23′13″N 124°33′12″E"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView101"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintStart_toStartOf="@+id/imageView101"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/changa"
+        android:text="North Cotabato, Philippines"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintStart_toStartOf="@+id/imageView101"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView101"
+        app:layout_constraintEnd_toEndOf="@+id/textView21"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toTopOf="@+id/imageView101"
+        app:layout_constraintVertical_bias="0.52"
+        app:srcCompat="@drawable/baseline_location_on_25" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

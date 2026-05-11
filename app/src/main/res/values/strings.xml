@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TRYY</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to Login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="logout">Logout</string>
+    <string name="login_your_information">Login your Information</string>
+    <string name="welcome">Welcome</string>
+    <string name="navigate_360">Navigate 360°</string>
+    <string name="or_login_with">or login with</string>
+    <string name="registration">Registration</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView101"
+        android:layout_width="315dp"
+        android:layout_height="448dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/rectangle5" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="281dp"
+        android:layout_height="119dp"
+        android:fontFamily="@font/changa"
+        android:text="Whale shark watching activity in Oslob is undeniably a popular attraction worldwide and yet also controversial. This incredible experience prompts tourists to flock to Oslob shores to encounter these gentle giants."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView101"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintStart_toStartOf="@+id/imageView101"
+        app:layout_constraintTop_toTopOf="@+id/imageView101"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="278dp"
+        android:layout_height="196dp"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView101"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/imageView101"
+        app:layout_constraintTop_toTopOf="@+id/imageView101"
+        app:layout_constraintVertical_bias="0.071">
+
+        <ImageView
+            android:id="@+id/imageView114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/o2" />
+
+        <ImageView
+            android:id="@+id/imageView125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/o3" />
+
+        <ImageView
+            android:id="@+id/imageView129"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/o1" />
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/changa"
+        android:text="Oslob Whale Shark"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView101"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintStart_toStartOf="@+id/imageView101"
+        app:layout_constraintTop_toBottomOf="@+id/viewFlipper"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView149"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/changa"
+        android:text="9°33′N , 123°24′E"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView101"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintStart_toStartOf="@+id/imageView101"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/changa"
+        android:text="Cebu City, Visayas, Philippines"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/imageView101"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="@+id/imageView101"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/viewFlipper"
+        app:layout_constraintVertical_bias="0.578"
+        app:srcCompat="@drawable/baseline_location_on_25" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

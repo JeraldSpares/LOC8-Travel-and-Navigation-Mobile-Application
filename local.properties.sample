@@ -1,0 +1,10 @@
+# Copy this file to `local.properties` and fill in the values.
+# `local.properties` is gitignored — never commit it.
+
+# Path to your Android SDK
+sdk.dir=C\:\\Users\\YOUR_USER\\AppData\\Local\\Android\\Sdk
+
+# Google Maps API key — get one at:
+# https://console.cloud.google.com/google/maps-apis
+# Restrict it to your Android package name (com.example.tryy) and SHA-1.
+MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY_HERE

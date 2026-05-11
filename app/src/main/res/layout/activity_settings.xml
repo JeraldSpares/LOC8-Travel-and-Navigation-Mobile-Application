@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_light"
+        android:text="Safety"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <ImageButton
+        android:id="@+id/policySettingsBtn"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523"
+        app:srcCompat="@drawable/circleblue" />
+
+    <ImageButton
+        android:id="@+id/policySettingsBtn4"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701"
+        app:srcCompat="@drawable/circleblue" />
+
+    <ImageButton
+        android:id="@+id/policySettingsBtn2"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583"
+        app:srcCompat="@drawable/circleblue" />
+
+    <ImageButton
+        android:id="@+id/policySettingsBtn5"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.640"
+        app:srcCompat="@drawable/circleblue" />
+
+    <ImageButton
+        android:id="@+id/policySettingsBtn6"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815"
+        app:srcCompat="@drawable/circleblue" />
+
+    <ImageButton
+        android:id="@+id/policySettingsBtn7"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871"
+        app:srcCompat="@drawable/circleblue" />
+
+    <ImageButton
+        android:id="@+id/policySettingsBtn8"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929"
+        app:srcCompat="@drawable/circleblue" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_light"
+        android:text="Account Settings"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="172dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Privacy Policy"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="172dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="App Updates"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="172dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Notifications &amp; Sounds"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="172dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Accounts"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="172dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Personal Details"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="172dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Password &amp; Security"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="172dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Help"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="172dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Legal &amp; Policies"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="237dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Report Technical Problem"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="172dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Photos &amp; Media"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="249dp"
+        android:layout_height="15dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Your information and permissions"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <ImageButton
+        android:id="@+id/PhotosSettingsBtn"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21"
+        app:srcCompat="@drawable/circleblue" />
+
+    <ImageButton
+        android:id="@+id/PolicySettingsBtn"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39"
+        app:srcCompat="@drawable/circleblue" />
+
+    <ImageButton
+        android:id="@+id/UpdatesSettingsBtn"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33"
+        app:srcCompat="@drawable/circleblue" />
+
+    <ImageButton
+        android:id="@+id/FeaturesSettingsBtn"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27"
+        app:srcCompat="@drawable/circleblue" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="96dp"
+        android:layout_height="16dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Settings"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <ImageButton
+        android:id="@+id/BackSettingsBtn"
+        android:layout_width="22dp"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_light"
+        android:text="Preferences"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="172dp"
+        android:layout_height="18dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="Free Features"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
+
+    <ImageButton
+        android:id="@+id/NotificationSettingsBtn"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151"
+        app:srcCompat="@drawable/circleblue" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/NotificationSettingsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/NotificationSettingsBtn"
+        app:layout_constraintStart_toStartOf="@+id/NotificationSettingsBtn"
+        app:layout_constraintTop_toTopOf="@+id/NotificationSettingsBtn"
+        app:srcCompat="@drawable/baseline_notifications_26" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/PhotosSettingsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/PhotosSettingsBtn"
+        app:layout_constraintStart_toStartOf="@+id/PhotosSettingsBtn"
+        app:layout_constraintTop_toTopOf="@+id/PhotosSettingsBtn"
+        app:srcCompat="@drawable/baseline_insert_photo_24" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/UpdatesSettingsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/FeaturesSettingsBtn"
+        app:layout_constraintStart_toStartOf="@+id/FeaturesSettingsBtn"
+        app:layout_constraintTop_toTopOf="@+id/FeaturesSettingsBtn"
+        app:layout_constraintVertical_bias="0.307"
+        app:srcCompat="@drawable/baseline_auto_awesome_24" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/UpdatesSettingsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/UpdatesSettingsBtn"
+        app:layout_constraintStart_toStartOf="@+id/UpdatesSettingsBtn"
+        app:layout_constraintTop_toTopOf="@+id/UpdatesSettingsBtn"
+        app:srcCompat="@drawable/baseline_update_24" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/PolicySettingsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/PolicySettingsBtn"
+        app:layout_constraintStart_toStartOf="@+id/PolicySettingsBtn"
+        app:layout_constraintTop_toTopOf="@+id/PolicySettingsBtn"
+        app:srcCompat="@drawable/baseline_privacy_tip_24" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/policySettingsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/policySettingsBtn"
+        app:layout_constraintStart_toStartOf="@+id/policySettingsBtn"
+        app:layout_constraintTop_toTopOf="@+id/policySettingsBtn"
+        app:srcCompat="@drawable/baseline_account_box_24" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/policySettingsBtn2"
+        app:layout_constraintEnd_toEndOf="@+id/policySettingsBtn2"
+        app:layout_constraintStart_toStartOf="@+id/policySettingsBtn2"
+        app:layout_constraintTop_toTopOf="@+id/policySettingsBtn2"
+        app:srcCompat="@drawable/baseline_details_24" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/policySettingsBtn5"
+        app:layout_constraintEnd_toEndOf="@+id/policySettingsBtn5"
+        app:layout_constraintStart_toStartOf="@+id/policySettingsBtn5"
+        app:layout_constraintTop_toTopOf="@+id/policySettingsBtn5"
+        app:srcCompat="@drawable/baseline_info_24" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/policySettingsBtn4"
+        app:layout_constraintEnd_toEndOf="@+id/policySettingsBtn4"
+        app:layout_constraintStart_toStartOf="@+id/policySettingsBtn4"
+        app:layout_constraintTop_toTopOf="@+id/policySettingsBtn4"
+        app:srcCompat="@drawable/baseline_security_24" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/policySettingsBtn6"
+        app:layout_constraintEnd_toEndOf="@+id/policySettingsBtn6"
+        app:layout_constraintStart_toStartOf="@+id/policySettingsBtn6"
+        app:layout_constraintTop_toTopOf="@+id/policySettingsBtn6"
+        app:srcCompat="@drawable/baseline_help_24" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/policySettingsBtn7"
+        app:layout_constraintEnd_toEndOf="@+id/policySettingsBtn7"
+        app:layout_constraintStart_toStartOf="@+id/policySettingsBtn7"
+        app:layout_constraintTop_toTopOf="@+id/policySettingsBtn7"
+        app:srcCompat="@drawable/baseline_bug_report_24" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/policySettingsBtn8"
+        app:layout_constraintEnd_toEndOf="@+id/policySettingsBtn8"
+        app:layout_constraintStart_toStartOf="@+id/policySettingsBtn8"
+        app:layout_constraintTop_toTopOf="@+id/policySettingsBtn8"
+        app:srcCompat="@drawable/baseline_policy_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
